@@ -11,3 +11,7 @@ for(let i = 0; i < numeri_creare; i++){
     numeri.push(numero_generato)
 }
 console.log(numeri)
+
+// mostrare solo i numeri richiesti
+let numeri_visualizzati = numeri.slice(0,prompt("Quanti ne vuoi visualizzare"))
+console.log(numeri_visualizzati)
